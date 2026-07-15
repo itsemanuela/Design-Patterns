@@ -9,6 +9,7 @@ public class RunnerChain implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         // creo ufficiali
+        System.out.println("********************************************ES 3********************************");
 
         Capitano capitano = new Capitano();
         Colonnello colonnello = new Colonnello();
